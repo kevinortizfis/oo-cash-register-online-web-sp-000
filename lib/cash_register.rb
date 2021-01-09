@@ -15,7 +15,6 @@ end
 def add_item(title,price,quantity = 1)
   # total << title,(price * quantity)
   @total = @total + price*quantity
-  title = title.string
   @ITEMS << title
 end
 
