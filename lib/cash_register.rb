@@ -17,7 +17,7 @@ end
 
 def apply_discount
   @total = @total*(100-discount)/100
-  "Afer the discount, the total comes to $#{@total}."
+  "After the discount, the total comes to $#{@total}."
 end
 
 def items
