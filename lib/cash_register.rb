@@ -32,8 +32,8 @@ def items
 end
 
 def void_last_transaction
-  @total -= @PRICES[-1]
   @ITEMS.pop
+  @total -= @PRICES[-1]
   if @ITEMS == [] || @ITEMS == nil
     @total = 0
   end
