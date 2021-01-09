@@ -14,7 +14,7 @@ end
 def add_item(title,price,quantity = 1)
   # total << title,(price * quantity)
   @total = @total + price*quantity
-  @ITEMS << [title]
+  @ITEMS << [title].flatten
 end
 
 def apply_discount
