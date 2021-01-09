@@ -32,7 +32,7 @@ def items
 end
 
 def void_last_transaction
-  @ITEMS = @ITEMS.pop
+  @ITEMS = @ITEMS.shift
   if @ITEMS == [] || @ITEMS == nil
     @total = 0
   end
