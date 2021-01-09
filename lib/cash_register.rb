@@ -16,7 +16,7 @@ def add_item(title,price,quantity = 1)
 end
 
 def apply_discount
-  discount.to_i != 0 ? (@total = @total*(100-discount)/100, "After the discount, the total comes to $#{@total}.") :("There is no discount to apply.")
+  discount.to_i != 0 ? (@total = @total*(100-discount)/100 && "After the discount, the total comes to $#{@total}.") :("There is no discount to apply.")
   end
 end
 
