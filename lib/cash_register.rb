@@ -3,7 +3,7 @@ attr_accessor :total, :discount,
 
 def initialize(total = 0,discount = 0)
   @total = total
-  @employee_discount = employee_discount
+  @discount = discount
 end
 
 def total
