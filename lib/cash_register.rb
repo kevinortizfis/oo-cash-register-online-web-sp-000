@@ -30,7 +30,7 @@ def items
 end
 
 def void_last_transaction
-  @total.to_f - @ITEMS[-1]
+  @total - @ITEMS[-1].to_f
 end
 
 end
