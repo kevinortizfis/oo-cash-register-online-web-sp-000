@@ -32,7 +32,7 @@ def items
 end
 
 def void_last_transaction
-  @total -= @PRICES[-1]
+  @total -= @PRICES
 end
 
 end
