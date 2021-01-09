@@ -36,6 +36,7 @@ def void_last_transaction
   @ITEMS.pop
   if @ITEMS = nil
     @total = 0
+  end
 end
 
 end
