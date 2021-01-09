@@ -1,4 +1,5 @@
 class CashRegister
+attr_accessor :total
 
 
 
@@ -15,5 +16,4 @@ class CashRegister
 
 
 
-  
 end
