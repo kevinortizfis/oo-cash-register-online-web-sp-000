@@ -33,6 +33,8 @@ end
 
 def void_last_transaction
   @total -= @PRICES[-1]
+  @ITEM.pop
+  @
 end
 
 end
