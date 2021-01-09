@@ -1,6 +1,9 @@
 class CashRegister
 attr_accessor :total, :discount
 
+def initialize()
+end
+
 def total
 end
 
@@ -10,9 +13,6 @@ end
 
 def apply_discount
 end
-
-
-
 
 
 
